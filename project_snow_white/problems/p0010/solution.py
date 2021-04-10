@@ -8,4 +8,4 @@ def get_num_attempts():
         flips = (choice([1, 2]), choice([1, 2]))
         i += 1
         if flips != (2, 2):
-            return i
+            return i * 2
