@@ -9,3 +9,8 @@ def get_num_attempts():
         i += 1
         if flips != (2, 2):
             return i * 2
+
+        
+if __name__ == '__main__':
+    print(get_num_attemps())
+    
