@@ -12,4 +12,4 @@ def get_num_attempts() -> int:
 
 
 if __name__ == '__main__':
-    print(get_num_attemps())
+    print(get_num_attempts())
