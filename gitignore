@@ -1,0 +1,18 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+.vscode
+
+.DS_Store
+
+# Internal Python stuff:
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment
+.env
+.venv
+venv/
+
+# mypy (if used):
+.mypy_cache/
