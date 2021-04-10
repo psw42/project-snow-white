@@ -1,7 +1,7 @@
 from random import seed, choice
 
 
-def get_num_attempts():
+def get_num_attempts() -> int:
     seed(24896725)
     i = 0
     while True:
