@@ -10,7 +10,6 @@ def get_num_attempts() -> int:
         if flips != (2, 2):
             return i * 2
 
-        
+
 if __name__ == '__main__':
     print(get_num_attemps())
-    
